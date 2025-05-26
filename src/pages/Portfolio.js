@@ -8,9 +8,9 @@ function Portfolio() {
       github: "https://github.com/yourname/react-express"
     },
     {
-      title: "Laravel App",
-      liveLink: "https://my-laravel-app.up.railway.app",
-      github: "https://github.com/yourname/laravel-app"
+      title: "FinanceTracker - Laravel",
+      liveLink: "https://laravel-financetracker-production.up.railway.app/",
+      github: "https://github.com/namansaxena31/Laravel-FinanceTracker"
     },
     {
       title: "Flask App",
@@ -27,7 +27,7 @@ function Portfolio() {
   return (
     <>
     <div className="container py-5">
-      <h1 className="text-center mb-5">My Full Stack Projects</h1>
+      <h1 className="text-center mb-5">My Projects</h1>
       <div className="row g-4">
         {projects.map((proj, index) => (
           <div key={index} className="col-md-6 col-lg-4">

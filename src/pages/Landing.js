@@ -12,7 +12,7 @@ function Landing() {
         />
       <h1 className="display-4 fw-bold">Hi, I'm Naman</h1>
       <p className="lead mb-4">Full Stack Developer | React · Express . Laravel · Flask · Spring</p>
-      <a href="/portfolio" className="btn btn-primary btn-lg">View My Work</a>
+      <a to="/portfolio" className="btn btn-primary btn-lg">View My Work</a>
 
       <div className="mt-5 d-flex justify-content-center gap-3 flex-wrap">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" />

@@ -1,18 +1,19 @@
 import { FaReact, FaLaravel, FaFlask, FaJava, FaDatabase, FaDocker, FaGithub } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiMysql, SiPostgresql } from 'react-icons/si';
+import InternshipTimeline from './InternshipTimeline';
 
 function About() {
   return (
    <div className="container py-5">
       <div className="text-center mb-5">
         <img
-          src="/images/me.jpg"
+          src="/images/personal_2.jpeg"
           alt="Naman"
           className="rounded-circle shadow mb-3"
           width="150"
           height="150"
         />
-        <h2 className="fw-bold">Naman Sharma</h2>
+        <h2 className="fw-bold">Naman Saxena</h2>
         <p className="text-muted">Full Stack Developer</p>
       </div>
 
@@ -33,41 +34,20 @@ function About() {
         <FaJava title="Spring Boot" />
         <SiMongodb title="MongoDB" />
         <SiMysql title="MySQL" />
-        <SiPostgresql title="PostgreSQL" />
         <FaGithub title="Git" />
-        <FaDocker title="Docker" />
       </div>
 
       <hr className="my-5" />
 
-      <h4 className="mb-4">🧭 Internship Timeline</h4>
-      <div className="timeline-container">
-        <div className="timeline-item">
-          <div className="timeline-dot" />
-          <div className="timeline-content">
-            <h5>Software Intern – ABC Corp</h5>
-            <small className="text-muted">Jan 2024 – Mar 2024</small>
-            <p>Developed and maintained Laravel-based REST APIs. Integrated Razorpay for seamless transactions.</p>
-          </div>
-        </div>
-
-        <div className="timeline-item">
-          <div className="timeline-dot" />
-          <div className="timeline-content">
-            <h5>Backend Intern – XYZ Solutions</h5>
-            <small className="text-muted">May 2023 – July 2023</small>
-            <p>Created internal tools with Flask and PostgreSQL, reducing database response time by 30%.</p>
-          </div>
-        </div>
-      </div>
+      <h4 className="mb-4">🧭 Timeline</h4>
+      <InternshipTimeline/>
 
       <hr className="my-5" />
 
       <h4 className="mb-3">🌟 Fun Facts</h4>
       <ul>
-        <li>📚 Sci-fi books and AI podcasts keep my curiosity alive</li>
+        <li>☕ Very Addicted to Coffee</li>
         <li>🎮 Gaming is my weekend reset ritual</li>
-        <li>☕ Coding without coffee is a bug, not a feature</li>
       </ul>
     </div>
   );
